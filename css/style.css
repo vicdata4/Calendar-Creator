@@ -1,0 +1,60 @@
+td{
+  min-width: 200px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.day{
+  background-color: #DB8E68;
+}
+
+.year {
+  color:green;
+}
+
+.month{
+  border:1px solid grey;
+  width: 20px;
+  height: 5px;
+  min-width: 10px;
+}
+
+
+.empty{
+  border:1px solid white;
+  width: 20px;
+  height: 5px;
+  min-width: 10px;
+}
+
+
+.align {
+  display: flex;
+  align-items: center;
+}
+input{
+	height: 20px;
+	color: grey;
+	padding: 5px;
+	font-size: 16px;
+}
+
+select{
+	height: 34px;
+	color: grey;
+	padding: 5px;
+	font-size: 16px;
+}
+
+.submit{
+	height: 34px;
+	color: white;
+	font-size: 16px;
+	background-color: #6d6d6d;
+	border-style: none;
+}
+.submit:hover{ background-color: #89AF8D; }
+
+.blocmon{ margin-left: 10px; }
+.title { color:green; }
+.weknd { background-color: #D7E1D8; }
